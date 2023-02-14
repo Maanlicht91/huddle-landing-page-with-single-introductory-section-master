@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: url(/images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    background-color:  hsl(257, 40%, 49%);
+    margin: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 3rem 3rem 1rem 0;
+}
+
+p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 2rem 2rem 0;
+    line-height: 1.5rem;
+}
+
+
+img {
+    
+    margin-left: 4rem;
+}
+
+button{
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    border-radius: 3rem;
+    border-width: 0;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+i {
+    text-align: center;
+    font-size: large;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    margin: 0.4rem;
+    padding: 0.6rem;
+  
+}
+
+i:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    flex-shrink: 1;
+    margin-top: 4rem;
+    padding-right: 10rem;
+
+}
+
+.contacts{
+    display: flex;
+    justify-content: right;
+    color:#fff;
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: #fff; 
+    margin-top: 5rem;
+}
+.attribution a { 
+    color: hsl(300, 69%, 71%); 
+}
+
+@media only screen and (max-width: 640px) {
+
+    body {
+        background: url(/images/bg-mobile.svg) no-repeat;
+        background-size: contain;
+        background-color: hsl(257, 40%, 49%);
+    }
+  
+    .container {
+        display: inline-block;
+        padding: 0;
+       
+    }
+
+    img {
+        margin: 0;
+        width: 100%;
+    }
+
+    header {
+        width: 50%;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 25px;
+       
+    }
+
+    button {
+        width: 250px;
+        height: 45px;
+    }
+
+    .contacts{
+        color:#fff;
+        justify-content: center;
+        margin-top: 2rem;
+    
+    }
+
+    i {
+       
+        font-size: small;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 25px;
+        width: 35px;
+        height: 35px;
+       
+    }
+}
