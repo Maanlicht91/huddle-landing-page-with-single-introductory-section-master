@@ -9,7 +9,7 @@ body{
     background: url(/images/bg-desktop.svg) no-repeat;
     background-size: cover;
     background-color:  hsl(257, 40%, 49%);
-    margin: 3rem;
+    margin-left: 3rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -17,7 +17,7 @@ h1{
     color: #fff;
     font-weight: 600;
     font-size: 40px;
-    margin: 3rem 3rem 1rem 0;
+    margin-top: 2rem;
 }
 
 p{
@@ -28,10 +28,6 @@ p{
 }
 
 
-img {
-    
-    margin-left: 4rem;
-}
 
 button{
     background-color: #fff;
@@ -69,7 +65,7 @@ i:hover {
     gap: 2rem;
     flex-shrink: 1;
     margin-top: 4rem;
-    padding-right: 10rem;
+    padding-right: 5rem;
 
 }
 
@@ -77,6 +73,7 @@ i:hover {
     display: flex;
     justify-content: right;
     color:#fff;
+    padding-right: 4rem;
 
 }
 
@@ -101,7 +98,7 @@ i:hover {
     .container {
         display: inline-block;
         padding: 0;
-       
+        
     }
 
     img {
@@ -131,7 +128,7 @@ i:hover {
         color:#fff;
         justify-content: center;
         margin-top: 2rem;
-    
+        padding: 0;
     }
 
     i {
